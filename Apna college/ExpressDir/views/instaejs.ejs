@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This game belong to <%=data.name %> </h1>
+    <p>Follower : <%= data.followers %>
+        Follower : <%= data.following %>
+    </p>
+    <%for(let post of data. posts){%>
+        <img src="<%=post.image%>"/>
+        <p>
+            Likes : <%=  post.likes %>
+            Comments :   <%= post.comments %>
+
+
+        </p>
+    <% } %>  
+
+</body>
+</html>

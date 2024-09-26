@@ -1,0 +1,16 @@
+{
+  "name": "apna-college",
+  "version": "1.0.0",
+  "main": "exp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apna-college": "file:",
+    "figlet": "^1.7.0"
+  },
+  "description": ""
+}
